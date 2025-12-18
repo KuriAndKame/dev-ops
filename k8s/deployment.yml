@@ -18,5 +18,4 @@ spec:
       - name: my-app-container
         image: korbendallasmercy/fastapi_demo:latest
         ports:
-        - containerPort: 8000 # Порт вашего приложения в контейнере
-
+        - containerPort: 8000

@@ -8,6 +8,5 @@ spec:
   ports:
     - protocol: TCP
       port: 80 # Порт, который будет доступен извне кластера
-      targetPort: 8000 # Порт внутри контейнера
-  type: NodePort # Для Minikube это лучший вариант
-
+      targetPort: 8000
+  type: NodePort
